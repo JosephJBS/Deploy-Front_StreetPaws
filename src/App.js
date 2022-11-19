@@ -11,7 +11,9 @@ import Principal from "./Principal";
 function App() {
   
   return (
+
     <div>
+      <h1>Funciona</h1>
       <Router>
         <Routes>
           <Route path="/paseadores" element={<Paseadores />}></Route>
